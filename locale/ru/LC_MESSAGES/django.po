@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 15:54+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-04-01 16:15+0300\n"
+"PO-Revision-Date: 2019-04-01 13:17+0000\n"
+"Last-Translator: b'  <super_vg@bk.ru>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.9.2\n"
 
 #: cart/forms.py:9
 msgid "Quantity"
@@ -28,13 +27,47 @@ msgstr "Количество"
 msgid "Coupon"
 msgstr "Купон"
 
-#: myshopbyexample/settings.py:152
+#: myshopbyexample/settings.py:153
 msgid "ENGLISH"
 msgstr "Английский"
 
-#: myshopbyexample/settings.py:153
+#: myshopbyexample/settings.py:154
 msgid "RUSSIAN"
 msgstr "Русский"
+
+#: myshopbyexample/urls.py:6
+msgid "admin/"
+msgstr "админ/"
+
+#: myshopbyexample/urls.py:7
+msgid "cart/"
+msgstr "корзина/"
+
+#: myshopbyexample/urls.py:8
+msgid "orders/"
+msgstr "заказы/"
+
+#: myshopbyexample/urls.py:9
+msgid "payment/"
+msgstr "оплата/"
+
+#: myshopbyexample/urls.py:10
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "Купон"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr "процесс/"
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr "выйти/"
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr "закончить/"
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
 msgid "Shop"
@@ -52,6 +85,9 @@ msgid ""
 "                $%(total_price)s\n"
 "                "
 msgstr ""
+"\n"
+"%(total_items)s product%(total_items_pluralize)s\n"
+"$%(total_price)s"
 
 #: shop/templates/shop/base.html:26
 msgid "Your cart is empty."
